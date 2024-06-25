@@ -1,0 +1,33 @@
+body {
+  font-family: "Chivo", sans-serif;
+  background-color: aqua;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 500px;
+}
+
+input {
+  height: 4rem;
+}
+
+.amount p {
+  font-size: 18px;
+}
+
+img {
+  max-width: 3rem;
+}
+
+.form-select {
+  height: 2rem;
+}
+
+.bi-arrow-left-right {
+  cursor: pointer;
+}
+
+.btn-success {
+  height: 4rem;
+}
