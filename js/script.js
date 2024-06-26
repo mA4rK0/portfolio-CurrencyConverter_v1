@@ -2,6 +2,7 @@ const dropList = document.querySelectorAll(".drop select");
 const fromCurrency = document.querySelector(".from select");
 const toCurrency = document.querySelector(".to select");
 const getButton = document.querySelector("form button");
+const exchangeTxt = document.querySelector(".exchange-rate");
 
 for (let i = 0; i < dropList.length; i++) {
   for (let currencyCode in countryCode) {
@@ -70,8 +71,6 @@ function exchangeRate() {
     amount.value = "1";
     amountVal = 1;
   }
-
-  let exchangeTxt = document.querySelector(".exchange-rate");
   exchangeTxt.innerText = "Getting the exchange rate...";
 
   getExchange(amountVal);
@@ -89,14 +88,9 @@ const getExchange = async (amountVal) => {
     let rate = res.data.conversion_rates[toCurrency.value];
 
     let totalExchangeRate = (amountVal * rate).toFixed(2);
-    const exchangeTxt = document.querySelector(".exchange-rate");
     exchangeTxt.innerText = `${amountVal} ${fromCurrency.value} = ${totalExchangeRate} ${toCurrency.value}`;
-
-    // xhuhx
-    console.log(res);
   } catch (error) {
     console.error("An error occurred:", error);
-    const exchangeTxt = document.querySelector(".exchange-rate");
     exchangeTxt.innerText = "An error occurred while fetching the exchange rate.";
   }
 };
