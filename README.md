@@ -12,7 +12,11 @@ Link : https://fonts.google.com/
 
 Bootstrap v5.3.3
 
+Link : https://getbootstrap.com/
+
 ## Icons
 
 Bootstrap Icons 
+
+Link : https://icons.getbootstrap.com/
 
