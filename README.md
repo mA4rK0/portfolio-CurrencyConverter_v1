@@ -20,3 +20,8 @@ Bootstrap Icons v1.11.3
 
 Link : https://icons.getbootstrap.com/
 
+## Web API 
+
+FlagsAPI
+
+Link : https://flagsapi.com/
