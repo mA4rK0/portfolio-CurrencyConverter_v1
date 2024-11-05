@@ -16,7 +16,7 @@ Link : https://getbootstrap.com/
 
 ## Icons
 
-Bootstrap Icons 
+Bootstrap Icons v1.11.3
 
 Link : https://icons.getbootstrap.com/
 
