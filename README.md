@@ -10,5 +10,9 @@ Link : https://fonts.google.com/
 
 ## CSS Framework
 
-Bootstrap v
+Bootstrap v5.3.3
+
+## Icons
+
+Bootstrap Icons 
 
